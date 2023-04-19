@@ -1,0 +1,12 @@
+name: scraper_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pip==21.2.4
+  - python==3.8
+
+  - pip:
+    - beautifulsoup4
+    - lxml
+    - html5lib
